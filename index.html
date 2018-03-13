@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Index</title>
+    <link rel="stylesheet" href="fontawesome-free-5.0.8/web-fonts-with-css/css/fontawesome-all.min.css">
+    <style>
+    .container{
+        position: relative;
+        width: 760px;
+        height: 748px;
+        margin: auto;
+        box-shadow:5px 5px 10px gray;
+    }
+    .header{
+        background-image: url(./top.jpg);
+        width: 760px;
+        height: 50px;
+    }
+    .fixed{
+        background-color: black;
+        width: 70px;
+        height:70px;
+        color: white;
+        text-align: center;
+        line-height: 70px;
+        margin:20px 20px 0 0;
+        float: right;
+    }
+   
+    .main h1{
+padding:80px 0 0 15px;
+   }
+   .main h2{
+padding:0 0 0 15px;
+   }
+   .main p{
+padding:30px 0 0 15px;
+   }
+   .main button {
+    background-color:rgb(80, 155, 123);
+    border: none;
+    color: white;
+    padding: 16px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+}
+.word{
+    color: gray;
+    padding-top: 30px;
+}
+.footer{
+    background-color: black;
+    width: 760px;
+    height: 250px;
+    margin-top: 50px;
+    color: white;
+
+}
+.footer p{
+    padding-left:50px;
+}
+.footerline{
+    border-top:solid gray 1px; width:700px; margin:auto;
+}
+@media only screen and (max-width:620px) {
+            .container,.header,.footer,.footerline{
+                width: 100%;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+            <div class="fixed">CSS</div>
+   <div class="header"></div>
+   
+    <div class="main" style="margin-right:30px;margin-left:30px">
+        <h1>您的意見能幫助我們改善css體驗</h1>    
+        <h2>我們很希望聽聽您的看法</h2>
+        <p>Link，您推薦親朋好友使用CSS的意願有多高呢？</p>
+        <div style="padding-left: 45px">
+            <button class="button">0</button>
+            <button class="button">1</button>
+            <button class="button">2</button>
+            <button class="button">3</button>
+            <button class="button">4</button>
+            <button class="button">5</button>   
+            <button class="button">6</button>
+            <button class="button">7</button>
+            <button class="button">8</button>
+            <button class="button">9</button>
+            <button class="button" style="padding: 16px 18px;">10</button>
+        </div>
+        <div class="word" style="float:right">非常願意</div>
+        <div class="word">非常不願意</div>
+    </div>
+       <div class="footer">
+           <div style="position:relative">
+            <i class="fab fa-line fa-inverse" style="position:absolute ;bottom:0;right:100px;"></i>
+            <i class="fab fa-twitter-square fa-inverse" style="position:absolute ;bottom:0;right:70px;"></i>
+            <i class="fab fa-facebook-square fa-inverse" style="position:absolute ;bottom:0;right:40px;"></i>
+           <p style="padding: 35px 0 0 30px;font-size:25px;margin-bottom: 15px;">Link Tutoial</p>
+        </div>
+           <div class="footerline"></div>
+           <p>需要協助</p>
+           <p>線上檢視</p>
+           <p>取消訂閱</p>
+       </div>
+    
+</div>
+</body>
+</html>
